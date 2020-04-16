@@ -11,8 +11,10 @@ namespace Csharpbeginner
         static void Main(string[] args)
         {
             string message = "I have Learned variables";
-
             Console.WriteLine(message);
+            int i = 14;
+            int j = i;
+            Console.WriteLine(j);
 
 
         }
