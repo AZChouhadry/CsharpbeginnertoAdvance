@@ -10,16 +10,15 @@ namespace Csharpbeginner
     {
         static void Main(string[] args)
         {
-            /* 25: covered Section 3 Premitive type
+            /* 26: started Section 4 non Premitive type
              
-             int
-             float
-             byte
-             double
-             long
-             short
+             classes 
+             structures
+             enums 
+             arrays
+             strings 
 
-            these are premitive types in CHash
+            these are non premitive types in CHash
              
              
              
