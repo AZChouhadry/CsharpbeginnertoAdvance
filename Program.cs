@@ -10,9 +10,10 @@ namespace Csharpbeginner
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Here I called WriteLine Function");
-            Console.Write("This is write function called");
-            
+            string message = "I have Learned variables";
+
+            Console.WriteLine(message);
+
 
         }
     }
