@@ -10,18 +10,16 @@ namespace Csharpbeginner
     {
         static void Main(string[] args)
         {
-            /* 15: covered different types of variables and data types*/
-            /* byte = 8bits
-             int = 4 bytes
-             double= for example 0.23
-             float= for example 0.2345
+            /* 19: covered type Conversion topic*/
+            
              
-             */
-            string message = "I have Learned variables";
-            Console.WriteLine(message);
-            int i = 14;
+            
+            byte i = 14;
             int j = i;
             Console.WriteLine(j);
+
+            float f = 1.0f;
+            int a = (int)f;
 
         }
     }
