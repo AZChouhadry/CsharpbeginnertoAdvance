@@ -10,16 +10,21 @@ namespace Csharpbeginner
     {
         static void Main(string[] args)
         {
-            /* 19: covered type Conversion topic*/
-            
+            /* 25: covered Section 3 Premitive type
              
-            
-            byte i = 14;
-            int j = i;
-            Console.WriteLine(j);
+             int
+             float
+             byte
+             double
+             long
+             short
 
-            float f = 1.0f;
-            int a = (int)f;
+            these are premitive types in CHash
+             
+             
+             
+             */
+        
 
         }
     }
