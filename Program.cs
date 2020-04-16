@@ -10,8 +10,18 @@ namespace Csharpbeginner
     {
         static void Main(string[] args)
         {
-            /* I have learned the difference between .Net Framework and CSharp Language*/
-
+            /* 15: covered different types of variables and data types*/
+            /* byte = 8bits
+             int = 4 bytes
+             double= for example 0.23
+             float= for example 0.2345
+             
+             */
+            string message = "I have Learned variables";
+            Console.WriteLine(message);
+            int i = 14;
+            int j = i;
+            Console.WriteLine(j);
 
         }
     }
