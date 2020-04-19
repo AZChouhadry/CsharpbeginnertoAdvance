@@ -6,6 +6,12 @@ namespace Csharpbeginner
    
     class Program
     {
-      /*  started  section <6> Arrays and Lists*/
+        /* section <6> Arrays and Lists*/
+
+        /*Completed Lesson 51 Introduction*/
+
+
     }
+
+
 }
