@@ -1,12 +1,14 @@
 using System;
 using System.Collections.Generic;
-namespace test
+namespace CsharpBeginner
 {
 
     class Program
     {
         static void Main(string[] args)
-        {
+        {   
+            /*Section 6 Arrays and Lists */
+
             var num = new [] {2,3,7,4,5 };
             var num = new List<int>() { 1,2,3,4};
             num.Add(1);
@@ -30,6 +32,6 @@ namespace test
             foreach(var a in num)
                 Console.WriteLine(a);
             }
-
-            Console.ReadLine();
-            
+          }
+          }  
+}
