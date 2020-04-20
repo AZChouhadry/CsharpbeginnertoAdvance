@@ -12,7 +12,17 @@ namespace Csharpbeginner
         {
 
 
-            /*Started Lesson 58 Introduction*/
+            /*Lesson 58 Date Time*/
+
+
+
+            /*Date*/
+            var dateTime = new DateTime(2016, 5, 3);
+            var now = DateTime.Now;
+
+            /*Time*/
+            Console.WriteLine("Hour:" + now.Hour);
+            Console.WriteLine("Minute: " + now.Minute);
 
 
         }
