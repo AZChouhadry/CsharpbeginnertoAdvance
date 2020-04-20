@@ -15,16 +15,17 @@ namespace Csharpbeginner
             /*Lesson 58 Date Time*/
 
 
-
-            /*Date*/
-            var dateTime = new DateTime(2016, 5, 3);
+            var dateTime = new DateTime(2015, 1, 1);
             var now = DateTime.Now;
+            var timeSpan1 = new TimeSpan(1, 2, 3);
+            var timeSpan2 = new TimeSpan(1, 0, 0);
+            var timeSpan3 = TimeSpan.FromHours(4);
+            Console.WriteLine("Value of Timespan 1 is: " + timeSpan1);
+            Console.WriteLine("Value of Timespan 2 is: " + timeSpan2);
+            Console.WriteLine("Value of Timespan 3 is: " + timeSpan3);
 
-            /*Time*/
-            Console.WriteLine("Hour:" + now.Hour);
-            Console.WriteLine("Minute: " + now.Minute);
-
-
+            Console.WriteLine("Minutes of Timespan 1: " + timeSpan1.Minutes);
+            Console.WriteLine("Total Minutes of Timespan 1: " + timeSpan1.TotalMinutes);
         }
 
 
