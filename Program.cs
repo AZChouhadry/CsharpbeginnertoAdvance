@@ -10,43 +10,30 @@ namespace Csharpbeginner
 
         static void Main(string[] args)
         {
-            var my_name = " Punjab Polce";
-            Console.WriteLine("Trim: '{0}'", my_name.Trim());
-            Console.WriteLine("Trim: '{0}'", my_name.Trim().ToUpper());
+            var my_sentence = " Punjab Polce is not professional to their duty";
 
-            var index = my_name.IndexOf(' ');
-            var firstName = my_name.Substring(0, index);
-            var lastName = my_name.Substring(index + 1);
+            Console.WriteLine(my_sentence);
 
-            Console.WriteLine("First Name:{0}, Last Name:{1}", firstName, lastName);
-
-            var names = my_name .Split(' ');
-            Console.WriteLine("First:" + names[0]);
-            Console.WriteLine("Second:" + names[1]);
-
-            Console.WriteLine(my_name.Replace("Punjab", "Ullu"));
-
-
-            if (String.IsNullOrEmpty(" ".Trim()))
+            var words = my_sentence.Split(' ');
+            foreach(var word in words)
             {
-                Console.WriteLine("Invalid");
-
-            }
-            if (String.IsNullOrWhiteSpace(" "))
-            {
-                Console.WriteLine("Invalid");
+                Console.WriteLine(word);
             }
 
-            var str = "25";
-            var age = Convert.ToSByte(str);
-            Console.WriteLine(age);
+            const int maxLenght = 10;
 
-            float price = 29.95f;
-            Console.WriteLine(price.ToString("C"));
+            if(my_sentence.Length< maxLenght)
+            { Console.WriteLine(my_sentence); }
+            else
+            {
+                var totalCharacters = 0;
+                var summaryWords = new List<string>();
 
-            Console.ReadLine();
+            }
 
-            /*Completed Lesson 64 Strings */
+        
+
+            /*Completed Lesson 65 Summarizing Text */
 
 
         }
