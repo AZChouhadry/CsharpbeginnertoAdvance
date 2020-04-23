@@ -25,10 +25,11 @@ namespace Csharpbeginner
             }
 
         }
-
+  
         public static List<int> GetSmallests(List<int> list, int count)
         {
             var smallests = new List<int>();
+            Console.WriteLine(" For Defensive Count should be between 1 and numbers");
             while (smallests.Count < count)
             {
 
@@ -43,6 +44,7 @@ namespace Csharpbeginner
         public static int GetSmallest(List<int> list)
         {
             var min = list[0];
+            Console.WriteLine(" For Defensive Count should be between 1 and numbers");
             for (var i = 1; i < list.Count; i++)
             {
                 if (list[i] > min)
@@ -52,6 +54,6 @@ namespace Csharpbeginner
 
         }
 
-        /*Completed Lesson 80  Removing Side Effects */
+        /*Completed Lesson 81  Defensive Programming */
     }
 }
