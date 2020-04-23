@@ -13,9 +13,12 @@ namespace Csharpbeginner
 
 
 
-            /*Started Section 9 Working with Files*/
+            /*Section 9 Working with Files*/
 
-            /*Completed Lesson 71 Introduction*/
+
+
+
+            /*Completed Lesson 72 */
 
 
 
