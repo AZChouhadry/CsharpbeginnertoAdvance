@@ -13,21 +13,10 @@ namespace Csharpbeginner
 
 
 
-            /*Procedural Programming*/
-            Console.WriteLine("Kindly Enter My name");
-            var my_name = Console.ReadLine();
+            /*Completed Section 8 Working with Text*/
 
-            Console.WriteLine("Your Name is: " + my_name);
-            var arrey = new char[my_name.Length];
-            foreach (var a in arrey)
-                Console.WriteLine(a);
-            for (var i = my_name.Length; i > 0; i--)
+            /*Completed Lesson 70 Summary*/
 
-            {
-                Console.WriteLine(" I has value" + i);
-                arrey[my_name.Length - i] = my_name[i - 1]; }
-            
-        
 
 
         }
