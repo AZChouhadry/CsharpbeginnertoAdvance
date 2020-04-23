@@ -13,10 +13,12 @@ namespace Csharpbeginner
             /*CSharp Intermediate Course*/
 
             /*
-           Started Section 2 Classes
+           Section 2 Classes
 
             Constructor 
             Constructor OverLoading
+
+            Objects Initialization
              */
 
             //two ways to create objects
@@ -35,7 +37,7 @@ namespace Csharpbeginner
             person2.Introduce();
 
 
-            /*Completed Lesson 8 Constructors */
+            /*Completed Lesson 9  Objects Initialization */
         }
         public class Person
         {
