@@ -16,22 +16,18 @@ namespace Csharpbeginner
             /*Section 9 Working with Files*/
 
             /*
-            Demo Directory Directoryinfo
+          Demo Path
              */
+            var path = @"e:\AZ\my_files\az.txt";
+            var dotindex = path.IndexOf(".");
+            var extesion = path.Substring(dotindex);
+            Console.WriteLine("Extension: " + path.GetExtension(path));
+            Console.WriteLine("File Name is : " + path.GetFileName(path));
+            Console.WriteLine("File Name is : " + path.GetFileNameWithoutExtension(path));
 
-            Directory.CreateDirectory(@"e:\my_folder");
-            Directory.GetFiles(@"e:\AZ\my_files", "." ,SearchOption.AllDirectories);
+            
 
-            var files= Directory.GetFiles(@"e:\AZ\my_files", ".txt", SearchOption.AllDirectories);
-            foreach(var file in files)
-                Console.WriteLine("Files with .txt Extension are :" + file);
-
-            var directories = Directory.GetDirectories(@"e:\AZ\my_files", ".", SearchOption.AllDirectories);
-            foreach (var diretory in directories)
-                Console.WriteLine("Directories are :" + diretory);
-
-
-            /*Completed Lesson 74  Demo Directory Directoryinfo*/
+            /*Completed Lesson 75  Demo Path*/
 
 
             
