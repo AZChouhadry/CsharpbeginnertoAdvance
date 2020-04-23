@@ -10,7 +10,7 @@ namespace Csharpbeginner
 
         static void Main(string[] args)
         {
-            /*Started CSharp Intermediate Course*/
+            /*CSharp Intermediate Course*/
 
             /*
 
@@ -18,7 +18,7 @@ namespace Csharpbeginner
 
 
 
-            /*Completed Lesson 1 Introduction */
+            /*Completed Lesson 2 Who is your Instructor */
         }
     }
 }
