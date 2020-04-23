@@ -10,22 +10,24 @@ namespace Csharpbeginner
 
         static void Main(string[] args)
         {
-            /*Completed Section 10 Debugging Applications*/
+            /*Completed CSharp Beginner Course*/
 
             /*
-             F10: Step Over
-             F11: Step Into
-
-            Debug>Windows>CallStack Window
-
-            Debug>Windows>Watch>Watch 1
-            Debug>Windows>Autos
-            Debug>Windows>Locals
+         Section 1 : Introduction
+         Section 2 : Introdution to C# and .NET Framework
+         Section 3: Primitive Types and Expressions
+         Section 4: Non-Primitive types
+         Section 5: Control Flow
+         Section 6: Arrays and Lists
+         Section 7: Working with Dates
+         Section 8: Working with Text
+         Section 9: Working with Files
+         Section 10: Debugging Applications
              */
 
 
 
-            /*Completed Lesson 84 Summary */
+            /*Completed CSharp Beginner Course */
         }
     }
 }
