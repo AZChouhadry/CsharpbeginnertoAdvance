@@ -17,6 +17,10 @@ namespace Csharpbeginner
              F11: Step Into
 
             Debug>Windows>CallStack Window
+
+            Debug>Windows>Watch>Watch 1
+            Debug>Windows>Autos
+            Debug>Windows>Locals
              */
 
             var numbers = new List<int> { 1, 2, 3, 4, 5, 6 };
@@ -56,6 +60,6 @@ namespace Csharpbeginner
 
         }
 
-        /*Completed Lesson 82 CallStack Window */
+        /*Completed Lesson 83 Locals and Autos Window */
     }
 }
