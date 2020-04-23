@@ -13,20 +13,22 @@ namespace Csharpbeginner
 
 
 
-            /*String Builder*/
-            var builder = new StringBuilder();
-            builder.Append('a', 1);
-            builder.Append('z', 1);
-            builder.AppendLine();
-            builder.Append('Y', 5);
-            builder.Append("ULLU");
-            builder.AppendLine();
-            builder.Append('h', 10);
-            Console.WriteLine(builder);
+            /*Procedural Programming*/
+            Console.WriteLine("Kindly Enter My name");
+            var my_name = Console.ReadLine();
 
-            builder.Replace('z', 'a');
+            Console.WriteLine("Your Name is: " + my_name);
+            var arrey = new char[my_name.Length];
+            foreach (var a in arrey)
+                Console.WriteLine(a);
+            for (var i = my_name.Length; i > 0; i--)
 
-            Console.WriteLine(builder);
+            {
+                Console.WriteLine(" I has value" + i);
+                arrey[my_name.Length - i] = my_name[i - 1]; }
+            
+        
+
 
         }
 
