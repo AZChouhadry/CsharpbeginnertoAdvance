@@ -52,6 +52,6 @@ namespace Csharpbeginner
 
         }
 
-        /*Completed Lesson 79  Debuggging Tools in Visual Studion */
+        /*Completed Lesson 80  Removing Side Effects */
     }
 }
