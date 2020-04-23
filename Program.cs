@@ -15,6 +15,8 @@ namespace Csharpbeginner
             /*
              F10: Step Over
              F11: Step Into
+
+            Debug>Windows>CallStack Window
              */
 
             var numbers = new List<int> { 1, 2, 3, 4, 5, 6 };
@@ -54,6 +56,6 @@ namespace Csharpbeginner
 
         }
 
-        /*Completed Lesson 81  Defensive Programming */
+        /*Completed Lesson 82 CallStack Window */
     }
 }
