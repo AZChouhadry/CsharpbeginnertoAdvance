@@ -14,19 +14,17 @@ namespace Csharpbeginner
 
             /*
            Section 2 Classes
-
-            Constructor 
-            Constructor OverLoading
-
-            Objects Initialization
+            Signature of Methods
+            Method Overloading
+            Params Modifier
+            Ref Modifier
+            Out Modifier
              */
 
-            //two ways to create objects
-
-            //Constructor Overloading with three different kind of constructors
             Person person2 = new Person();
             Person person = new Person("ULLU");
             var person1 = new Person("ULLU ka patha" , 12345);
+
            
             //Calling introduce method for three different types of objects
             person.Introduce();
@@ -36,8 +34,10 @@ namespace Csharpbeginner
             Console.WriteLine("I am object 3 i.e. person 2");
             person2.Introduce();
 
+            Console.WriteLine(" Calling Methods by different ways method overloading");
+            person1.Introduce(57, "Pakpattan");
 
-            /*Completed Lesson 9  Objects Initialization */
+            /*Completed Lesson 10 Methods */
         }
         public class Person
         {
@@ -62,6 +62,22 @@ namespace Csharpbeginner
             {
                 Console.WriteLine("Hi Your Name is : " + Name);
                 Console.WriteLine("Hi Your ID Is  : " + Id);
+
+            }
+
+            public void Introduce(int weight)
+            {
+                Console.WriteLine("Hi Your Name is : " + Name);
+                Console.WriteLine("Hi Your ID Is  : " + Id);
+                Console.WriteLine("Hi Your Weight is  : " + weight);
+            }
+
+            public void Introduce(int weight, string location)
+            {
+                Console.WriteLine("Hi Your Name is : " + Name);
+                Console.WriteLine("Hi Your ID Is  : " + Id);
+                Console.WriteLine("Hi Your Weight is  : " + weight);
+                Console.WriteLine("Hi Your Location is  : " + location);
 
             }
         }
