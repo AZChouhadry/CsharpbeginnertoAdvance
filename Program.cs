@@ -13,12 +13,25 @@ namespace Csharpbeginner
             /*CSharp Intermediate Course*/
 
             /*
-            Completed Section 1 About this course
+           Started Section 2 Classes
              */
 
+            //two ways to create objects
+            Person person = new Person();
+            var person1 = new Person();
+            person.Name = "ULLU";
+            person.Introduce();
 
 
-            /*Completed Lesson 6 Before you Get Started */
+            /*Completed Lesson 7 Introduction to Classes */
+        }
+        public class Person
+        {
+            public string Name;
+            public void Introduce()
+            {
+                Console.WriteLine("Hi Your Name is : " + Name);
+            }
         }
     }
 }
