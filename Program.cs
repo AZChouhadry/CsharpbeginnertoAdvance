@@ -16,21 +16,25 @@ namespace Csharpbeginner
             /*Section 9 Working with Files*/
 
             /*
-             File, File Info
+            Demo Directory Directoryinfo
              */
-            var path = @"e:\my_profile.jpg";
-            File.Copy(@"e:\my_profile.jpg", @"d:\my_profile.jpg");
-            File.Delete(path);
-            if (File.Exists(path))
-            {
-                Console.WriteLine("File was not deleted");
-            }
+
+            Directory.CreateDirectory(@"e:\my_folder");
+            Directory.GetFiles(@"e:\AZ\my_files", "." ,SearchOption.AllDirectories);
+
+            var files= Directory.GetFiles(@"e:\AZ\my_files", ".txt", SearchOption.AllDirectories);
+            foreach(var file in files)
+                Console.WriteLine("Files with .txt Extension are :" + file);
+
+            var directories = Directory.GetDirectories(@"e:\AZ\my_files", ".", SearchOption.AllDirectories);
+            foreach (var diretory in directories)
+                Console.WriteLine("Directories are :" + diretory);
 
 
-            /*Completed Lesson 73 Demo File, File Info*/
+            /*Completed Lesson 74  Demo Directory Directoryinfo*/
 
 
-
+            
         }
 
 
