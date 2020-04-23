@@ -13,12 +13,12 @@ namespace Csharpbeginner
             /*CSharp Intermediate Course*/
 
             /*
-
+            Completed Section 1 About this course
              */
 
 
 
-            /*Completed Lesson 2 Who is your Instructor */
+            /*Completed Lesson 6 Before you Get Started */
         }
     }
 }
